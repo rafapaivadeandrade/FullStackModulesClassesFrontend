@@ -19,3 +19,11 @@ Começando pela aplicação frontend
 1. `yarn` or `npm install`
 
 2. `yarn start` or `npm run start`
+
+3. Para fazer o login como admin e fazer modificações é preciso digitar na página de login o:
+email: admin@hotmail.com
+senha: admin
+
+4. Para fazer login como usuário normal é preciso digitar na página de login o:
+email: test@hotmail.com
+senha: test
