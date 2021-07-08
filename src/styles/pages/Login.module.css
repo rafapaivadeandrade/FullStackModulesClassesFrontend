@@ -1,0 +1,214 @@
+#pageLogin{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  min-height: 100%;
+  color: var(--color-text-in-primary);
+  background: var(--color-primary);
+  overflow: hidden;
+  background-image: url('../../assets/Login_Desktop_Dark.png');
+  padding: 20px 0px 0px;
+}
+.container{
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 40px 35px;
+}
+#logoContainer{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  max-width: 500px;
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 50px 20px 0px 0px;
+}
+
+#logoContainer div {
+  width: 70px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: rgb(94, 73, 255);
+  margin-bottom: 40px;
+}
+#logoContainer img{
+  width: 280px;
+  margin-bottom: 86px;
+}
+#logoContainer  h1{
+  flex: 1 1 0%;
+  font-size: 40px;
+  color: rgb(37, 203, 211);
+  margin-bottom: 40px;
+}
+
+#login{
+  flex: 1 1 0%;
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  margin-top: -150px;
+}
+.form{
+  width: 100%;
+  flex-direction: column;
+  max-width: 384px;
+  display: flex;
+  padding: 50px 60px 40px;
+  flex: 1 1 0%;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 500px;
+  border: 1px solid rgb(94, 73, 255);
+  border-radius: 8px;
+}
+.form div{
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px 0px 20px;
+  padding: 0px 30px;
+  background-color: rgb(36, 18, 75);
+  border-radius: 12px;
+  border: 0px;
+}
+.form > div:hover{
+  border: 1px solid rgb(94, 73, 255);
+  transition: all 0.3s ease 0s;
+  opacity: 0.8;
+}
+#inputDiv{
+  flex: 1 1 0%;
+  position: relative;
+  padding-left: 0px;
+}
+#sun{
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+}
+#sun div img{
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+#login  input[name="email"]{
+  flex: 1 1 0%;
+  height: 40px;
+  background-color: rgb(36, 18, 75);
+  color: rgb(240, 245, 255);
+  font-size: 16px;
+  margin: 0px 10px;
+  box-shadow: 0px 0px 0px 0px;
+  border: 0px none;
+  outline: 0px;
+  padding-top: 20px;
+}
+
+#login input[name="password"]{
+  flex: 1 1 0%;
+  height: 40px;
+  background-color: rgb(36, 18, 75);
+  color: rgb(240, 245, 255);
+  font-size: 16px;
+  margin: 0px 10px;
+  box-shadow: 0px 0px 0px 0px;
+  border: 0px none;
+  outline: 0px;
+  padding-top: 20px;
+}
+
+#eye{
+  cursor: pointer;
+  border: 0;
+  height: 12px;
+  width: 12px;
+}
+#eye img{
+  border: 0;
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 22px;
+  width: 22px;
+}
+#eye div{
+  border: 0;
+  height: 22px;
+  width: 22px;
+}
+
+#login div button[type=submit]{
+  display: flex;
+  height: 56px;
+  width: 100%;
+  background-color: rgb(37, 203, 211);
+  border: 0px;
+  color: rgb(240, 245, 255);
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  }
+#login div button[type=submit]:hover{
+  transition: all 0.3s ease 0s;
+  opacity: 0.8;
+  border: 1px solid rgb(37, 203, 211);
+  color: rgb(37, 203, 211);
+  background: transparent;
+  }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+  height: 8px;
+}
+.col:nth-child(1){
+  background: rgb(94, 73, 255);
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col:nth-child(2){
+  background: rgb(59, 212, 45);
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col:nth-child(3){
+  background: rgb(37, 203, 211);
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col:nth-child(4){
+  background: rgb(240, 245, 255);
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col:nth-child(5){
+  background: rgb(28, 12, 63);
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}

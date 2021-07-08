@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    min-height: 62.3%;
+    position: relative;
+    flex-direction: column;
+    flex: 1 1 0%;
+    background:  0% 0% / cover rgb(28, 12, 63);
+    padding: 0px 10% 28px;
+}
+.container > div > h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 24px;
+    font-family: "Biennale Regular";
+    color: rgb(240, 245, 255);
+}
+
+.container > div > div > h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 24px;
+    font-family: "Biennale Regular";
+    color: rgb(240, 245, 255);
+}
+.container div > p{
+    font-size: 18px;
+    margin: 8px 0px 40px;
+    color: rgb(161, 145, 255);
+}
+
+.secondContainer{
+    padding: 0px 16px;
+}
+.module{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 20px;
+    align-items: center;
+    gap: 24px 12px;
+
+}
+.module img{
+    border-radius: 16px;
+    width: 72px;
+    height: 72px;
+    background: rgb(156, 242, 127);
+}
+
+.module div h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 24px;
+    font-family: "Biennale Regular";
+    color: rgb(240, 245, 255);
+}
+.module div {
+    margin-top: 16px;
+}
+.module div svg{
+    font-size: 20px;
+}
+.module div svg:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+    height: 8px;
+  }
+  .col:nth-child(1){
+    background: rgb(94, 73, 255);
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col:nth-child(2){
+    background: rgb(59, 212, 45);
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col:nth-child(3){
+    background: rgb(37, 203, 211);
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col:nth-child(4){
+    background: rgb(240, 245, 255);
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col:nth-child(5){
+    background: rgb(28, 12, 63);
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
